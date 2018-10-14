@@ -1,0 +1,259 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Sergiu}{Oprea}{Excited about Deep Learning, Computer Vision and AI \\ \href{https://www.linkedin.com/in/sergiu-oprea-12babaa9/}{LinkedIn} \textbullet{} \href{https://scholar.google.es/citations?user=JlZbbzIAAAAJ&hl=es}{Google Scholar} \textbullet{} \href{https://github.com/sergiuoprea/}{GitHub} \\  Contact at \href{mailto:soprea@dtic.ua.es}{soprea@dtic.ua.es} or (+34) 647 19 80 55 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.495\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of Alicante}
+\descript{PhD in Deep Learning and Computer Vision}
+\location{2018--2021} 
+Working on my PhD thesis related to video prediction, scene understanding and unsupervised learning.
+\sectionsep
+
+\descript{M.Sc. in Automation and Robotics}
+\location{Graduated on July 2017 | 9.33/10 GPA} 
+M.Sc. Thesis: \href{http://rua.ua.es/dspace/handle/10045/68353}{\addfontfeature{Color=blue} Deep Learning-based Human-Machine Interaction System: Gesture Recognition}.
+
+\sectionsep
+
+\descript{B.Sc. in Computer Science}
+\location{Graduated on September 2015 | 7.52/10 GPA}
+High Academic Performance Group \\
+B.Sc. Thesis: Hand Gesture Recognition for Human-Computer Interaction using low-cost RGB-D Sensors. 
+
+\sectionsep
+
+\subsection{University of Rey Juan Carlos}
+\descript{M.Sc. in Computer Graphics, Games and VR}
+\location{2015--2016}
+Currently with two subjects to be done. \\
+
+\sectionsep
+
+\subsection{University of Salford}
+\descript{Erasmus Intensive Programme: Big Data}
+\location{Manchester, UK}
+
+\sectionsep
+
+\section{Grants and awards}
+
+\begin{tabular}{ll}
+2018 & ACIF Grant for PhD Studies \\
+2017 & MSc in Automation and Robotics extraordinary \\
+& award for best academic record.  \\
+2017 & Research Initiation Grant\\
+2014 & Research Collaboration Grant\\
+\end{tabular}
+
+\sectionsep 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Courses}
+\subsection{Udacity}
+
+\begin{tabular}{ll}
+2017 & \href{https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013}{\addfontfeature{Color=blue} Self-Driving Cars Nanodegree - T1: Deep Learning} \\
+2017 & \href{https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101}{\addfontfeature{Color=blue} Deep Learning Foundations Nanodegree} \\
+2016 & \href{https://www.udacity.com/course/deep-learning--ud730}{\addfontfeature{Color=blue} Deep Learning by Google}
+\end{tabular}
+
+\sectionsep
+
+\subsection{Coursera}
+
+\begin{tabular}{ll}
+Ongoing & \href{https://www.coursera.org/specializations/deep-learning}{\addfontfeature{Color=blue} Deep Learning Specialization (5 courses)} \\
+2016 & \href{https://www.coursera.org/account/accomplishments/certificate/P9KHUVSUBQK8}{\addfontfeature{Color=blue} Machine Learning (Andrew NG)}
+\end{tabular}
+
+\sectionsep
+
+\subsection{Workshops and Summer Schools}
+
+\begin{tabular}{ll}
+2018 & \href{https://pumps.bsc.es/2018/front-page-content}{\addfontfeature{Color=blue} PUMPS+AI Summer School} \\
+2017 & \href{https://www.dlsi.ua.es/~pertusa/aerfai/index.html}{\addfontfeature{Color=blue} AERFAI Deep Learning Summer School} \\
+2013 & \href{http://jgpu.dtic.ua.es}{\addfontfeature{Color=blue}Workshop on GPGPU programming} \\ 
+2013 & \href{https://web.ua.es/en/verano/2013/campus/curso-de-programacion-de-aplicaciones-cientificas-y-de-vision-por-computador-sobre-procesadores-graficos.html}{\addfontfeature{Color=blue} Summer School on GPGPU programming} \\ 
+2013 & \href{http://www.dccia.ua.es/OpenGL/es/}{\addfontfeature{Color=blue}OpenGL in depth} \\
+2013 & RepRap 3D printers
+\end{tabular}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Skills}
+%\subsection{Programming}
+%\location{Over 5000 lines:}
+%Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
+%OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+%\location{Over 1000 lines:}
+%C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+%\location{Familiar:}
+%AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.495\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work/Research Experience}
+
+\runsubsection{Research Engineer} \\
+\descript{University of Alicante}
+\location{(2018) 6 months}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	\item \href{https://www.youtube.com/watch?v=CiRc5tCtCak}{\addfontfeature{Color=blue} Paper (IROS 2018) -> \textit{The RobotriX: An eXtremely Photorealistic and Very-Large-Scale Indoor Dataset of Sequences with Robot Trajectories and Interactions}}. 
+	\item Focused on grasping system and robot mobility.
+\end{tightemize}
+
+\location{(2017) 6 months}
+\begin{tightemize}
+\item \href{http://www.sciencedirect.com/science/article/pii/S0167865517301903}{\addfontfeature{Color=blue}Worked on a human-machine interaction system deployed on Pepper robot to assist impaired}.
+\item \href{https://doi.org/10.1111/exsy.12247}{\addfontfeature{Color=blue} Implemented a gesture recognition system to help children with autism overcome language delays}. 
+%\item Used deep learning libraries: \href{https://keras.io/}{\addfontfeature{Color=blue} Keras} and \href{https://www.tensorflow.org/}{\addfontfeature{Color=blue} Tensorflow}.
+\end{tightemize}
+
+\location{(2016) 6 months}
+\begin{tightemize}
+\item \href{http://www.scitepress.org/PublicationsDetail.aspx?ID=iZhu5TbsCgU=&t=1}{\addfontfeature{Color=blue}Developing an RNN-based system for oil spill detection using SLAR imagery from an unmanned aerial vehicle}.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Research Intern}
+\\
+\descript{University of Alicante}
+\location{(2014--2015) 8 months}
+\begin{tightemize}
+\item \href{https://www.youtube.com/watch?v=71XN0S43BXQ}{\addfontfeature{Color=blue}Implemented a DTW-based Schaeffer language gesture recognition system}.
+\end{tightemize}
+\location{(2014) 4 months}
+\begin{tightemize}
+\item Development of a physiotherapy support tool using a Microsoft Kinect sensor.
+\end{tightemize}
+\sectionsep
+
+\section{Publications}
+\vspace{\topsep}
+\begin{tightemize}
+\item Journals: \href{https://www.sciencedirect.com/science/article/pii/S1568494618302813}{\addfontfeature{Color=blue} ASOC}, \href{http://www.sciencedirect.com/science/article/pii/S0167865517301903}{\addfontfeature{Color=blue} PRL}, \href{http://www.sciencedirect.com/science/article/pii/S1077314217301182}{\addfontfeature{Color=blue} CVIU},  \href{https://link.springer.com/article/10.1007/s00521-016-2224-9}{\addfontfeature{Color=blue} NCA}, etc. 	
+\item Conferences: IROS, \href{https://ieeexplore.ieee.org/document/7965885}{\addfontfeature{Color=blue} IJCNN}, \href{http://www.scitepress.org/PublicationsDetail.aspx?ID=iZhu5TbsCgU=&t=1}{\addfontfeature{Color=blue} ICPRAM}, etc. 
+\item Book chapters: \href{https://www.igi-global.com/chapter/object-recognition-pipeline/201780}{\addfontfeature{Color=blue} ACVIP}.
+\end{tightemize}
+
+\section{Skills}
+\descript{Focused on}
+Deep Learning, Computer Vision and Virtual Reality \\
+\sectionsep
+\descript{Also interested in}
+GPGPU programming, 3D computer graphics and AI \\
+\sectionsep
+\descript{Tools and libraries}
+PyTorch \textbullet{} Tensorflow \textbullet{} Keras \textbullet{} UE4 \textbullet{} Unity \\
+\sectionsep
+\descript{Programming}
+Python \textbullet{} C and C++ \textbullet{} CUDA \textbullet{} \LaTeX\ \textbullet{} Java \textbullet{} Matlab \\
+
+
+\section{Languages}
+\begin{tabular}{ll}
+English & Limited working proficiency (B2+)\\
+French & Elementary proficiency (A2) \\
+Spanish & Native proficiency \\ 
+Romanian & Native proficiency\\ 
+\end{tabular}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
